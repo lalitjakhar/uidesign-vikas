@@ -1,17 +1,17 @@
-import { Box, Typography, Button } from "@mui/material";
+import { Container,Box, Typography, Button, } from "@mui/material";
 
 const HeroSection = () => {
   return (
     <>
     
       <div>
-        <Box className="container">
+        <Container maxWidth="md">
           <Box
             sx={{
               display: "flex",
               flexDirection: "column",
               gap: { xs: "8px", md: "10px" },
-              maxWidth: "650px",
+             
               textAlign: "center",
               margin: "0 auto", // Center the container
               padding: { xs: "16px", md: "32px" },
@@ -53,9 +53,10 @@ const HeroSection = () => {
               </Button>
             </Box>
           </Box>
-        </Box>
+        </Container>
       </div>
       <div>
+        <Container maxWidth="xxl">
         <Box
           className="container-md"
           sx={{ display: "flex", flexWrap: "wrap", justifyContent:"center", gap:"10px", }}
@@ -85,6 +86,7 @@ const HeroSection = () => {
             <img src="src/assets/4herosection8.png" alt="" width={300}/>
           </Box>
         </Box>
+        </Container>
       </div>
     </>
   );
