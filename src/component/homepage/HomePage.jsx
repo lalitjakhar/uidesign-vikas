@@ -1,4 +1,5 @@
 import BeautyWorld from "./BeautyWorld";
+import ExplorationSeaction from "./ExplorationSeaction";
 import HeroSection from "./HeroSection";
 import SimpleSection from "./SimpleSection";
 
@@ -8,6 +9,7 @@ const HomePage = () => {
       <HeroSection />
       <BeautyWorld />
       <SimpleSection />
+      <ExplorationSeaction />
     </>
   );
 };

@@ -1,24 +1,29 @@
-import { Container, Box, Typography,Button } from "@mui/material";
+import { Container, Box, Typography, Button } from "@mui/material";
 const SimpleSection = () => {
   return (
     <>
       <div>
-        <Container maxWidth="lg" sx={{marginTop:"60px"}}>
-          <Box display={"flex"} height={"300px"}>
-            <Container width={"674px"}>
-              <Box>
-                <Typography
-                  sx={{
-                    fontSize: "60px",
-                    lineHeight: "88px",
-                    fontWeight: "800",
-                  }}
-                >
-                  Just that simple
-                </Typography>
-              </Box>
-            </Container>
-            <Container maxWidth="sm">
+        <Container maxWidth="lg" sx={{ marginTop: "60px" }}>
+          <Box display={"flex"} height={"200px"} gap={"70px"}>
+            <Box>
+              <Typography
+                sx={{
+                  fontSize: "60px",
+                  lineHeight: "88px",
+                  fontWeight: "800",
+                }}
+              >
+                Just that simple
+              </Typography>
+            </Box>
+
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                maxWidth: "600px",
+              }}
+            >
               <Box>
                 <Typography
                   sx={{
@@ -36,17 +41,19 @@ const SimpleSection = () => {
                   Get Started
                 </Button>
               </Box>
-            </Container>
-          </Box>
-          <Box>
-          <img
-            src="src/assets/simple1.png"
-            alt=""
-            width={"100%"}
-            height={"auto"}
-          />
+            </Box>
           </Box>
         </Container>
+         <Container maxWidth="lg">
+         <Box>
+            <img
+              src="src/assets/simple1.png"
+              alt=""
+              width={"100%"}
+              height={"auto"}
+            />
+          </Box>
+         </Container>
       </div>
     </>
   );
