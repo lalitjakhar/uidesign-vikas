@@ -4,7 +4,7 @@ const SimpleSection = () => {
     <>
       <div>
         <Container maxWidth="lg" sx={{ marginTop: "60px" }}>
-          <Box display={"flex"} height={"200px"} gap={"70px"}>
+          <Box className="SimpleSectioncontent">
             <Box>
               <Typography
                 sx={{
@@ -44,16 +44,15 @@ const SimpleSection = () => {
             </Box>
           </Box>
         </Container>
-         <Container maxWidth="lg">
-         <Box>
+        <Container maxWidth="lg">
+          <Box sx={{ width: "100%", height: "auto" }}>
             <img
               src="src/assets/simple1.png"
               alt=""
-              width={"100%"}
-              height={"auto"}
+              style={{ width: "100%", height: "auto" }}
             />
           </Box>
-         </Container>
+        </Container>
       </div>
     </>
   );
