@@ -69,8 +69,8 @@ const BeautyWorld = () => {
                 <img
                   src="src/assets/beautiworld3.png"
                   alt=""
-                  width={350}
-                  height={379}
+                  width={"100%"}
+                  height={"auto"}
                 />
               </Box>
             </Box>
@@ -88,8 +88,8 @@ const BeautyWorld = () => {
                 <img
                   src="src/assets/beautyworld4.png"
                   alt=""
-                  width={350}
-                  height={379}
+                  width={"100%"}
+                  height={"auto"}
                 />
               </Box>
             </Box>
@@ -107,8 +107,8 @@ const BeautyWorld = () => {
                 <img
                   src="src/assets/beautyworld5.png"
                   alt=""
-                  width={350}
-                  height={379}
+                  width={"100%"}
+                  height={"auto"}
                 />
               </Box>
             </Box>
