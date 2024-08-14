@@ -24,6 +24,7 @@ const BeautyWorld = () => {
                   fontSize: "26px",
                   lineHeight: "35px",
                   fontWeight: "400",
+                  color:"rgba(37, 37, 37, 0.55)"
                 }}
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -36,20 +37,20 @@ const BeautyWorld = () => {
               </Box>
             </Box>
             <Box display={"flex"} sx={{ gap: "10px" }}>
-              <Box>
+              <Box sx={{width:"100%", height:"auto"}}>
                 <img
                   src="src/assets/beautyword1.png"
                   alt=""
-                  width={300}
-                  height={400}
+                  width={"100%"}
+                  height={"auto"}
                 />
               </Box>
-              <Box sx={{ marginTop: "80px" }}>
+              <Box sx={{ marginTop: "80px",width:"100%", height:"auto" }}>
                 <img
                   src="src/assets/beautyword2.png"
                   alt=""
-                  width={300}
-                  height={400}
+                  width={"100%"}
+                  height={"auto"}
                 />
               </Box>
             </Box>
@@ -59,8 +60,9 @@ const BeautyWorld = () => {
               <Typography
                 sx={{
                   fontWeight: "800",
-                  color: " #25252540",
+                  color: " rgba(37, 37, 37, 0.55)",
                   fontSize: "40px",
+                  
                 }}
               >
                 01
@@ -78,7 +80,7 @@ const BeautyWorld = () => {
               <Typography
                 sx={{
                   fontWeight: "800",
-                  color: " #25252540",
+                  color: " rgba(37, 37, 37, 0.55)",
                   fontSize: "40px",
                 }}
               >
@@ -97,7 +99,7 @@ const BeautyWorld = () => {
               <Typography
                 sx={{
                   fontWeight: "800",
-                  color: " #25252540",
+                  color: " rgba(37, 37, 37, 0.55)",
                   fontSize: "40px",
                 }}
               >

@@ -30,6 +30,7 @@ const SimpleSection = () => {
                     fontSize: "26px",
                     lineHeight: "35px",
                     fontWeight: "400",
+                    color:"rgba(37, 37, 37, 0.55)"
                   }}
                 >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -44,7 +45,7 @@ const SimpleSection = () => {
             </Box>
           </Box>
         </Container>
-        <Container maxWidth="lg">
+        <Container className="simpleimg" maxWidth="lg">
           <Box sx={{ width: "100%", height: "auto" }}>
             <img
               src="src/assets/simple1.png"

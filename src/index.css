@@ -19,10 +19,25 @@ body {
     align-items: center;
     margin-bottom: 110px;
   }
+  .ExplorationSectioncontent{
+    flex-direction: column;
+    align-items: center;
+  }
 }
+
+     
+
 .SimpleSectioncontent{
     display: flex;
-    
     height: 200px;
     gap: 70px;
+}
+.ExplorationSectioncontent{
+    display: flex;
+    margin-top: 70px;
+    width:fit-content;
+    gap: 40px;
+    margin: auto;
+    
+   
 }

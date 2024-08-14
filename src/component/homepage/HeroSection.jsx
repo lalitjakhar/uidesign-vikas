@@ -32,7 +32,7 @@ const HeroSection = () => {
               <Typography
                 variant="body1"
                 sx={{
-                  color: "#252525",
+                  color: "rgba(37, 37, 37, 0.55)",
                   fontSize: { xs: "16px", md: "26px" },
                   lineHeight: { xs: "24px", md: "35px" },
                 }}
