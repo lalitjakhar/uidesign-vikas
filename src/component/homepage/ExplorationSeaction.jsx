@@ -1,9 +1,9 @@
-import { Container, Box,Typography,Button } from "@mui/material";
+import {  Box,Typography,Button } from "@mui/material";
 const ExplorationSeaction = () => {
   return (
     <>
-      <Container sx={{display:"flex", gap:"50px"}}>
-        <Box>
+      <Box sx={{display:"flex", gap:"50px", marginTop:"70px", marginRight:"0",}}>
+        <Box marginRight={"0"}>
           <img
             src="src/assets/ImageExloration1.png"
             alt=""
@@ -11,9 +11,9 @@ const ExplorationSeaction = () => {
             height={"auto"}
           />
         </Box>
-        <Box>
-           <Box>
-           <Typography>
+        <Box maxWidth={"500px"}>
+           <Box >
+           <Typography fontSize={"64px"} lineHeight={"80px" }>
             Exploration and inspiration
             </Typography>
            </Box>
@@ -22,11 +22,12 @@ const ExplorationSeaction = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu eget. Et integer facilisi eget diam.
             </Typography>
            </Box>
-           <Box>
-            <Button>Explor</Button>
+           <Box 
+          >
+            <Button variant="Contant" sx={{background:"#252525", color:"white"}}>Explore</Button>
            </Box>
         </Box>
-      </Container>
+      </Box>
     </>
   );
 };

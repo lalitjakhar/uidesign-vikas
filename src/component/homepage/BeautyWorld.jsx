@@ -3,9 +3,9 @@ import { Container, Box, Typography, Button } from "@mui/material";
 const BeautyWorld = () => {
   return (
     <>
-      <Container maxWidth="xl" sx={{ marginTop: "50px"}} >
-        <Container>
-          <Box sx={{ display: "flex" }}>
+      <Container maxWidth="xl" sx={{ marginTop: "50px"  }}>
+        <Container> 
+          <Box className="beautyworldcontainer">
             <Box
               sx={{
                 marginTop: "40px",
@@ -35,7 +35,7 @@ const BeautyWorld = () => {
                 </Button>
               </Box>
             </Box>
-            <Box display={"flex"} sx={{ position: "relative", gap: "10px" }}>
+            <Box display={"flex"} sx={{ gap: "10px" }}>
               <Box>
                 <img
                   src="src/assets/beautyword1.png"
@@ -54,7 +54,7 @@ const BeautyWorld = () => {
               </Box>
             </Box>
           </Box>
-          <Box sx={{ display: "flex", gap: "50px", flexWrap:"warp" }}>
+          <Box sx={{ display: "flex", gap: "50px", flexWrap: "warp" }}>
             <Box>
               <Typography
                 sx={{
