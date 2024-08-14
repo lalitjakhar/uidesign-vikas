@@ -62,7 +62,7 @@ const HeroSection = () => {
           sx={{ display: "flex", flexWrap: "wrap", justifyContent:"center", gap:"10px", }}
         >
           <Box>
-            <img src="src/assets/beautyworld1.png" alt="" width={300} />
+            <img src="src/assets/herosection1.png" alt="" width={300} />
           </Box>
           <Box>
             <img src="src/assets/herosecion2.png" alt="" width={300}/>
