@@ -48,7 +48,7 @@ const SimpleSection = () => {
         <Container className="simpleimg" maxWidth="lg">
           <Box sx={{ width: "100%", height: "auto" }}>
             <img
-              src="src/assets/simple1.png"
+              src="src/assets/simplectionsection/simple1.png"
               alt=""
               style={{ width: "100%", height: "auto" }}
             />

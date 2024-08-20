@@ -1,12 +1,12 @@
-import { Box, Typography, Button } from "@mui/material";
+import {Container, Box, Typography, Button } from "@mui/material";
 const ExplorationSeaction = () => {
   return (
     <>
- 
+ <Container className="Exploration"  >
       <Box className="ExplorationSectioncontent">
         <Box sx={{  height: "auto" }}>
           <img
-            src="src/assets/ImageExloration1.png"
+            src="src/assets/explorationsection/ImageExloration1.png"
             alt=""
             width={"700px"}
             height={"900px"}
@@ -97,7 +97,7 @@ const ExplorationSeaction = () => {
           </Box>
         </Box>
       </Box>
-      
+      </Container>
     </>
   );
 };

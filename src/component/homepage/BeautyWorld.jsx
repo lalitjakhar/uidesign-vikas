@@ -39,7 +39,7 @@ const BeautyWorld = () => {
             <Box display={"flex"} sx={{ gap: "10px" }}>
               <Box sx={{width:"100%", height:"auto"}}>
                 <img
-                  src="src/assets/beautyword1.png"
+                  src="src/assets/beautyworld/beautyword1.png"
                   alt=""
                   width={"100%"}
                   height={"auto"}
@@ -47,7 +47,7 @@ const BeautyWorld = () => {
               </Box>
               <Box sx={{ marginTop: "80px",width:"100%", height:"auto" }}>
                 <img
-                  src="src/assets/beautyword2.png"
+                  src="src/assets/beautyworld/beautyword2.png"
                   alt=""
                   width={"100%"}
                   height={"auto"}
@@ -69,7 +69,7 @@ const BeautyWorld = () => {
               </Typography>
               <Box>
                 <img
-                  src="src/assets/beautiworld3.png"
+                  src="src/assets/beautyworld/beautiworld3.png"
                   alt=""
                   width={"100%"}
                   height={"auto"}
@@ -88,7 +88,7 @@ const BeautyWorld = () => {
               </Typography>
               <Box>
                 <img
-                  src="src/assets/beautyworld4.png"
+                  src="src/assets/beautyworld/beautyworld4.png"
                   alt=""
                   width={"100%"}
                   height={"auto"}
@@ -107,7 +107,7 @@ const BeautyWorld = () => {
               </Typography>
               <Box>
                 <img
-                  src="src/assets/beautyworld5.png"
+                  src="src/assets/beautyworld/beautyworld5.png"
                   alt=""
                   width={"100%"}
                   height={"auto"}

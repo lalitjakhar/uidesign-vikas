@@ -23,6 +23,32 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .PracticeSeaction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ExpressDesigncontent{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+
+  }
+  .Expressway{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .PracticSection1{
+    display: flex;
+    justify-content: center;
+  }
+  .Nextlevelcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
 }
 
      
@@ -37,7 +63,9 @@ body {
     margin-top: 70px;
     width:fit-content;
     gap: 40px;
-    margin: auto;
-    
-   
-}
+    margin: 0;
+};
+
+
+
+
