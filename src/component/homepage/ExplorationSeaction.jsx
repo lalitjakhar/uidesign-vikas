@@ -2,7 +2,7 @@ import {Container, Box, Typography, Button } from "@mui/material";
 const ExplorationSeaction = () => {
   return (
     <>
- <Container className="Exploration"  >
+ <Container className="Exploration" maxWidth="xl" >
       <Box className="ExplorationSectioncontent">
         <Box sx={{  height: "auto" }}>
           <img

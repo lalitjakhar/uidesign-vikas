@@ -13,7 +13,7 @@ const NextLevelSection = () => {
           justifyContent: "space-between",
         }}
       >
-        <Box sx={{ height: "900px", width: "700px" }}>
+        <Box sx={{ height: "900px" }}>
           <Box
             sx={{
               height: "656px",
@@ -48,7 +48,7 @@ const NextLevelSection = () => {
             sx={{
               position: "absolute",
               bottom: "120px",
-              right: "600px",
+              left: "457px",
               height: "250px",
               width: "250px",
             }}
