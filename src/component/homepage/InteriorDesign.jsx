@@ -72,7 +72,7 @@ const InteriorDesign = () => {
             </Box>
           </Box>
           <Box sx={{ width: "100%", position: "relative" }}>
-            <Box sx={{ position: "absolute", left:"20px" ,height:"508px",width:"462px" }}>
+            <Box sx={{ position: "absolute", left:"20px"  }}>
               <img
                 src="src/assets/Interiordesign/interiordesign2 (1).png"
                 alt="interiordesign2"

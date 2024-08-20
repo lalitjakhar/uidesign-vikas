@@ -71,8 +71,8 @@ const NextLevelSection = () => {
             <img
               src="src/assets/Nextlevelsection/nextlevelsection3.png"
               alt="nextlevelimg"
-              width={"618"}
-              height={"795"}
+              width={"100%"}
+              height={"100%"}
             />
           </Box>
         </Box>

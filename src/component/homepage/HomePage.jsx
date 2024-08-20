@@ -3,6 +3,7 @@ import EwatchSection from "./EwatchSection";
 import ExplorationSeaction from "./ExplorationSeaction";
 import ExpressDesign from "./ExpressDesign";
 import HeroSection from "./HeroSection";
+import InspireDesign from "./InspireDesign";
 import InteriorDesign from "./InteriorDesign";
 import NextLevelSection from "./NextLevelSection";
 import PracticeSeaction from "./PracticeSecation";
@@ -20,6 +21,7 @@ const HomePage = () => {
       <ExpressDesign />
       <NextLevelSection />
       <InteriorDesign />
+      <InspireDesign />
     </>
   );
 };
