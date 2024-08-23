@@ -1,5 +1,5 @@
 const PowerDesign = () => {
-    return <div>vikas dhaker</div>;
+    return <div></div>;
   };
   
   export default PowerDesign;

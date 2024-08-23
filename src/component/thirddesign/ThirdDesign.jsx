@@ -1,11 +1,11 @@
-import FutureDesign from "./FutureDesign";
+import AdventureSection from "./AdventureSection";
 import KidHungry from "./KidHungry";
 import PowerDesign from "./PowerDesign";
 
 const ThirdDesign = () => {
   return (
  <>
-  <FutureDesign />
+  <AdventureSection />
   <KidHungry />
   <PowerDesign />
  </>

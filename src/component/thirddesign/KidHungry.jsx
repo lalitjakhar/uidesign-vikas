@@ -1,5 +1,5 @@
 const KidHungr = () => {
-    return <div>vikas dhaker nagar</div>;
+    return <div></div>;
   };
   
   export default KidHungr;
