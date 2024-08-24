@@ -28,7 +28,7 @@ const ExplorationSeaction = () => {
                   fontSize: "26px",
                   lineHeight: "35px",
                   fontWeight: "400",
-                  color: "rgba(37, 37, 37, 0.55)",
+                  color: "rgba(37, 37, 37, 0.8)",
                 }}
                 className="Typowebherosection"
               >
@@ -76,7 +76,7 @@ const ExplorationSeaction = () => {
                   width:"510px",
                   height:"99px",
                   fontSize: "24px",
-                  color: "rgba(37, 37, 37, 0.55)",
+                  color: "rgba(37, 37, 37, 0.8)",
                   lineHeight: "30px",
                   fontWeight: "400",
                 }}
@@ -89,7 +89,7 @@ const ExplorationSeaction = () => {
               <Typography
                 sx={{
                   fontSize: "32px",
-                  color: "rgba(37, 37, 37, 0.55)",
+                  color: "rgba(37, 37, 37, 0.8)",
                   lineHeight: "45px",
                   fontWeight: "800",
                 }}
@@ -99,7 +99,7 @@ const ExplorationSeaction = () => {
               <Typography
                 sx={{
                   fontSize: "24px",
-                  color: "rgba(37, 37, 37, 0.55)",
+                  color: "rgba(37, 37, 37, 0.8)",
                   lineHeight: "30px",
                   fontWeight: "400",
                 }}

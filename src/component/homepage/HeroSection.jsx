@@ -36,7 +36,7 @@ const HeroSection = () => {
               <Typography
                 variant="body1"
                 sx={{
-                  color: "rgba(37, 37, 37, 0.55)",
+                  color: "rgba(37, 37, 37, 0.8)",
                   fontSize: { xs: "16px", md: "26px" },
                   lineHeight: { xs: "24px", md: "35px" },
                   width:"620px",
@@ -54,11 +54,10 @@ const HeroSection = () => {
                 className="Typowebherosection"
                 sx={{
                   background: "rgba(37, 37, 37, 1)",
-                  paddingRight:" 20px",
-                  paddingLeft:"20px",
+                 
                   borderRadius:"16px",
-                  paddingTop:"15px",
-                  paddingBottom:"15px",
+                  paddingInline:"30px",
+                  paddingBlock:"15px",
                   fontSize:"18px",
                   fontWeight:"400px",
                   lineHeight:"18px",

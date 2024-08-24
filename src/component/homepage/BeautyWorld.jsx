@@ -32,7 +32,7 @@ const BeautyWorld = () => {
                   fontSize: "26px",
                   lineHeight: "35px",
                   fontWeight: "400",
-                  color:"rgba(37, 37, 37, 0.55)"
+                  color:"rgba(37, 37, 37, 0.8)"
                 }}
                 className="Typowebherosection"
               >
