@@ -16,9 +16,9 @@ const ExplorationSeaction = () => {
           maxWidth={"500px"}
           sx={{ display: "flex", flexDirection: "column", gap: "80px" }}
         >
-          <Box sx={{ display: "flex", flexDirection: "column", gap: "20px" }}>
+          <Box sx={{ display: "flex", flexDirection: "column", gap: "32px" }}>
             <Box>
-              <Typography fontSize={"64px"} lineHeight={"80px"}>
+              <Typography className="Typowebherosection" fontSize={"64px"} lineHeight={"80px"}>
                 Exploration and inspiration
               </Typography>
             </Box>
@@ -30,6 +30,7 @@ const ExplorationSeaction = () => {
                   fontWeight: "400",
                   color: "rgba(37, 37, 37, 0.55)",
                 }}
+                className="Typowebherosection"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Faucibus in libero risus semper habitant arcu eget. Et integer
@@ -39,13 +40,26 @@ const ExplorationSeaction = () => {
             <Box>
               <Button
                 variant="Contant"
-                sx={{ background: "#252525", color: "white" }}
+                sx={{
+                  background: "rgba(37, 37, 37, 1)",
+                  paddingRight:" 20px",
+                  paddingLeft:"20px",
+                  borderRadius:"16px",
+                  paddingTop:"15px",
+                  paddingBottom:"15px",
+                  fontSize:"18px",
+                  fontWeight:"400px",
+                  lineHeight:"18px",
+                  color:"rgba(255, 255, 255, 1)",
+                  
+                  
+                }}
               >
                 Explore
               </Button>
             </Box>
           </Box>
-          <Box>
+          <Box sx={{display:"grid", gap:"40px", width:"500px"}}>
             <Box>
               <Typography
                 sx={{
@@ -59,15 +73,16 @@ const ExplorationSeaction = () => {
               </Typography>
               <Typography
                 sx={{
+                  width:"510px",
+                  height:"99px",
                   fontSize: "24px",
                   color: "rgba(37, 37, 37, 0.55)",
                   lineHeight: "30px",
                   fontWeight: "400",
                 }}
+                className="Typowebherosection"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Faucibus in libero risus semper habitant arcu eget. Et integer
-                facilisi eget.
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu eget. Et integer facilisi eget.
               </Typography>
             </Box>
             <Box>
@@ -88,6 +103,7 @@ const ExplorationSeaction = () => {
                   lineHeight: "30px",
                   fontWeight: "400",
                 }}
+                className="Typowebherosection"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Faucibus in libero risus semper habitant arcu eget. Et integer

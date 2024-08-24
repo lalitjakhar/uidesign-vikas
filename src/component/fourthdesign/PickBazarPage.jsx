@@ -1,9 +1,7 @@
 import { Container, Box, Typography, Select, Button } from "@mui/material";
-
 import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
 import StepLabel from "@mui/material/StepLabel";
-
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
@@ -11,12 +9,11 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 
-
 const steps = [
   "Order Pending",
   "Order processing",
   "Order at local facility",
-  "Order Out For Deliveryk",
+  "Order Out For Delivery",
   "Order Completed",
 ];
 
@@ -25,7 +22,7 @@ const PickBazarPage = () => {
     <>
       <div>
         <Container maxWidth="xl">
-          <Container maxWidth="lg" sx={{ margin: "30px" }}>
+          <Container maxWidth="lg" sx={{ margin: "30px", bgcolor:"white" }}>
             <Box
               sx={{
                 display: "flex",
@@ -54,7 +51,7 @@ const PickBazarPage = () => {
               </Box>
               <Box>
                 <Typography sx={{ fontWeight: "500" }}>
-                  Pyment Status :{" "}
+                  Pyment Status :
                   <span
                     style={{
                       color: "rgba(0,159,127, 1)",
@@ -93,7 +90,7 @@ const PickBazarPage = () => {
                   <hr></hr>
                   <option value="">Order at local facility</option>
                   <hr></hr>
-                  <option value="">Order Out For Deliveryk</option>
+                  <option value="">Order Out For Delivery</option>
                   <hr></hr>
                   <option value="">Order Completed</option>
                   <hr></hr>
@@ -124,66 +121,133 @@ const PickBazarPage = () => {
               </Stepper>
             </Box>
 
-            <Box sx={{marginTop:"50px"}}>
-            <TableContainer >
-      <Table sx={{ minWidth: '700px' }} aria-label="spanning table">
-        <TableHead>
-          <TableRow>
-            <TableCell align="start" sx={{ borderBottom: 'none' }} colSpan={3}>
-              Product
-            </TableCell>
-            <TableCell align="right" sx={{ borderBottom: 'none' }}>
-              Total
-            </TableCell>
-          </TableRow>
-          <TableRow>
-            <TableCell sx={{ borderBottom: 'none' }}>
-              The Bedtime Stories Part Onex3
-            </TableCell>
-            <TableCell align="right" ></TableCell>
-            <TableCell align="right" ></TableCell>
-            <TableCell align="right" >
-              $300.00
-            </TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          <TableRow>
-            <TableCell rowSpan={4} sx={{ borderBottom: 'none' }} />
-            <TableCell colSpan={2} sx={{ borderBottom: 'none' }}>
-              Subtotal
-            </TableCell>
-            <TableCell align="right" sx={{ borderBottom: 'none' }}>
-              $300.00
-            </TableCell>
-          </TableRow>
-          <TableRow>
-            <TableCell colSpan={2} sx={{ borderBottom: 'none' }}>
-              Shipping Charge
-            </TableCell>
-            <TableCell align="right" sx={{ borderBottom: 'none' }}>
-              $0.00
-            </TableCell>
-          </TableRow>
-          <TableRow>
-            <TableCell colSpan={2} sx={{ borderBottom: 'none' }}>
-              Tax
-            </TableCell>
-            <TableCell align="right" sx={{ borderBottom: 'none' }}>
-              $6.00
-            </TableCell>
-          </TableRow>
-          <TableRow>
-            <TableCell colSpan={2} sx={{ borderBottom: 'none' }}>
-              Total
-            </TableCell>
-            <TableCell align="right" sx={{ borderBottom: 'none' }}>
-              $306.00
-            </TableCell>
-          </TableRow>
-        </TableBody>
-      </Table>
-    </TableContainer>
+            <Box sx={{ marginTop: "50px" }}>
+              <TableContainer>
+                <Table sx={{ minWidth: "700px" }} aria-label="spanning table">
+                  <TableHead>
+                    <TableRow sx={{ bgcolor: "#f9fafb" }}>
+                      <TableCell
+                        align="start"
+                        sx={{ borderBottom: "none", fontWeight: "800" }}
+                        colSpan={3}
+                      >
+                        Product
+                      </TableCell>
+                      <TableCell
+                        align="right"
+                        sx={{ borderBottom: "none", fontWeight: "800" }}
+                      >
+                        Total
+                      </TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell sx={{ borderBottom: "none" }}>
+                        <Box sx={{ display: "flex", alignItems: "center" }}>
+                          <img
+                            src="src/assets/Pickbazarpage/Children-Literature-2-thumbnail.webp"
+                            alt="Product"
+                            width={50}
+                            height={50}
+                            style={{ marginRight: "8px" }}
+                          />
+                          The Bedtime Stories Part Onex3
+                        </Box>
+                      </TableCell>
+                      <TableCell align="right"></TableCell>
+                      <TableCell align="right"></TableCell>
+                      <TableCell align="right">$300.00</TableCell>
+                    </TableRow>
+                  </TableHead>
+                  <TableBody>
+                    <TableRow>
+                      <TableCell rowSpan={4} sx={{ borderBottom: "none" }} />
+                      <TableCell colSpan={2} sx={{ borderBottom: "none" }}>
+                        Subtotal
+                      </TableCell>
+                      <TableCell align="right" sx={{ borderBottom: "none" }}>
+                        $300.00
+                      </TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell colSpan={2} sx={{ borderBottom: "none" }}>
+                        Shipping Charge
+                      </TableCell>
+                      <TableCell align="right" sx={{ borderBottom: "none" }}>
+                        $0.00
+                      </TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell colSpan={2} sx={{ borderBottom: "none" }}>
+                        Tax
+                      </TableCell>
+                      <TableCell align="right" sx={{ borderBottom: "none" }}>
+                        $6.00
+                      </TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell
+                        colSpan={2}
+                        sx={{ borderBottom: "none", fontWeight: "800" }}
+                      >
+                        Total
+                      </TableCell>
+                      <TableCell align="right" sx={{ borderBottom: "none" }}>
+                        $306.00
+                      </TableCell>
+                    </TableRow>
+                  </TableBody>
+                </Table>
+              </TableContainer>
+            </Box>
+            <Box
+              width={"100%"}
+              sx={{ display: "flex", justifyContent: "space-between", marginTop:"40px"}}
+            >
+              <Box width={"30%"}>
+                <Typography
+                  sx={{
+                    borderBottom: "1px solid black",
+                    borderColor:"#666666",
+                    fontSize: "inherit",
+                    fontWeight: "500",
+                    paddingBottom: "3px",
+                  }}
+                >
+                  Order Details
+                </Typography>
+                <Typography sx={{color:"#666666"}}>1 Item</Typography>
+                <Typography sx={{color:"#666666"}}>Payment Method: CASH_ON_DELIVERY</Typography>
+              </Box>
+              <Box width={"30%"}>
+                <Typography
+                  sx={{
+                    borderBottom: "1px solid black",
+                    borderColor:"#666666",
+                    fontSize: "inherit",
+                    fontWeight: "500",
+                    paddingBottom: "3px",
+                  }}
+                >
+                  Billing Address
+                </Typography>
+                <Typography sx={{color:"#666666"}}>Customer</Typography>
+                <Typography sx={{color:"#666666"}}>+1 9365141641631</Typography>
+              </Box>
+              <Box width={"30%"} sx={{textAlign:"end"}}>
+                <Typography
+                  sx={{
+                    borderBottom: "1px solid black",
+                    borderColor:"#666666",
+                    fontWeight: "500",
+                    paddingBottom: "3px",
+                   
+                  }}
+                >
+                  Shipping Address
+                </Typography>
+                <Typography sx={{color:"#666666"}}>Customer</Typography>
+                <Typography sx={{color:"#666666"}}> +1 9365141641631</Typography>
+              </Box>
             </Box>
           </Container>
         </Container>

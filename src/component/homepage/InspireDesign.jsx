@@ -9,7 +9,8 @@ const InspireDesign = () => {
             background: "rgba(47, 47, 47, 1)",
             display: "flex",
             justifyContent: "space-evenly",
-            padding:"40px"
+            padding:"40px",
+           
           }}
         >
           <Box
@@ -28,6 +29,7 @@ const InspireDesign = () => {
                   fontWeight: "700",
                   lineHeight: "108px",
                 }}
+                 className="typoinspiredesign"
               >
                 <Box sx={{ color: "pink" }}>Design.</Box>
                 <Box sx={{ color: "aqua" }}>Create.</Box>
@@ -39,7 +41,9 @@ const InspireDesign = () => {
                   fontWeight: "400",
                   lineHeight: "36px",
                   color: "rgba(255, 255, 255, 1)",
+                  
                 }}
+                 className="typoinspiredesign"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Faucibus in libero risus semper habitant arcu eget. Et integer
@@ -49,9 +53,12 @@ const InspireDesign = () => {
             <Box>
               <Button
                 sx={{
-                  background: "white",
-                  color: "black ",
-                  borderRadius: "50px",
+                  background: "rgba(255, 255, 255, 1)",
+                  borderRadius: "60px",
+                  color: "rgba(35, 35, 35, 1)",
+                  paddingInline:"30px",
+                  paddingBlock:"15px",
+                  fontSize:"24px"
                 }}
               >
                 Explore
@@ -63,7 +70,7 @@ const InspireDesign = () => {
               display: "flex",
               flexWrap: "wrap",
               justifyContent: "space-between",
-              maxWidth: "800px",
+              maxWidth: "700px",
             }}
           >
             <Box>

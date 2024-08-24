@@ -77,7 +77,8 @@ const NextLevelSection = () => {
           </Box>
         </Box>
         <Box width={"487px"} height={"674px"} sx={{ paddingTop: "60px" }}>
-          <Box>
+          <Box sx={{display:"grid", gap:"40px"}}>
+            <Box>
             <Typography
               sx={{
                 fontSize: "88px",
@@ -88,6 +89,8 @@ const NextLevelSection = () => {
             >
               Take your designs to the next level
             </Typography>
+            </Box>
+            <Box>
             <Typography
               sx={{
                 fontSize: "24px",
@@ -99,17 +102,27 @@ const NextLevelSection = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
               in libero risus semper habitant arcu.
             </Typography>
-          </Box>
+            </Box>
+         
           <Box>
             <Button
-              sx={{
-                background: "rgba(229, 185, 75, 1)",
-                color: "rgba(8, 8, 8, 1)",
-                borderRadius: "50px",
-              }}
+             sx={{
+              background: "rgba(229, 185, 75, 1)",
+              paddingRight:" 40px",
+              paddingLeft:"40px",
+              borderRadius:"36px",
+              paddingTop:"25px",
+              paddingBottom:"25px",
+              fontSize:"18px",
+              fontWeight:"400px",
+              lineHeight:"18px",
+              color:"rgba(255, 255, 255, 1)",
+              
+            }}
             >
               Explore
             </Button>
+          </Box>
           </Box>
         </Box>
       </Container>

@@ -3,7 +3,7 @@ import { Box } from "@mui/system";
 const PracticeSeaction = () => {
   return (
     <>
-      <Container>
+      <Container sx={{marginTop:"60px"}}>
       <Box className="PracticSection1">
       <Typography 
           sx={{
@@ -16,11 +16,12 @@ const PracticeSeaction = () => {
             top: "64px",
             left: "64px",
           }}
+          className="Typowebherosection"
         >
           Projects and practice
         </Typography>
       </Box>
-        <Box className="PracticeSeaction" sx={{ display: "flex", justifyContent: "space-between", width:"100%"}}>
+        <Box className="PracticeSeaction" sx={{ display: "flex", justifyContent: "space-between", width:"100%", marginTop:"50px"}}>
           <Box
             sx={{
               display: "flex",
@@ -52,6 +53,7 @@ const PracticeSeaction = () => {
                   height: "120px",
                   width: "370px",
                 }}
+                className="Typowebherosection"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Faucibus in libero risus semper habitant arcu eget. Et integer
@@ -98,6 +100,7 @@ const PracticeSeaction = () => {
                   height: "120px",
                   width: "370px",
                 }}
+                className="Typowebherosection"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Faucibus in libero risus semper habitant arcu eget. Et integer
@@ -144,6 +147,7 @@ const PracticeSeaction = () => {
                   height: "120px",
                   width: "370px",
                 }}
+                className="Typowebherosection"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Faucibus in libero risus semper habitant arcu eget. Et integer

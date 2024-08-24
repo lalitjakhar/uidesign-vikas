@@ -31,6 +31,7 @@ const InteriorDesign = () => {
                     fontSize: "88px",
                     fontWeight: "800",
                     lineHeight: "104px",
+                    color:"rgba(54, 56, 48, 1)"
                   }}
                 >
                   Interior design
@@ -44,6 +45,7 @@ const InteriorDesign = () => {
                     color: "rgba(54, 56, 48, 1)",
                     marginBottom: "10px",
                   }}
+                  className="Typowebherosection"
                 >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Faucibus in libero risus semper habitant arcu eget. Et integer
@@ -55,6 +57,9 @@ const InteriorDesign = () => {
                       background: "rgba(54, 56, 48, 1)",
                       borderRadius: "60px",
                       color: "rgba(255, 255, 255, 1)",
+                      paddingInline:"30px",
+                      paddingBlock:"15px",
+                      fontSize:"24px"
                     }}
                   >
                     Explore
@@ -120,6 +125,7 @@ const InteriorDesign = () => {
                       color: "rgba(54, 56, 48, 1)",
                       maxWidth:"250px"
                     }}
+                    className="Typowebherosection"
                   >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Faucibus in libero risus semper habitant arcu eget.
@@ -139,7 +145,9 @@ const InteriorDesign = () => {
                       lineHeight: "24px",
                       color: "rgba(54, 56, 48, 1)",
                        maxWidth:"250px"
-                    }}>
+                    }}
+                    className="Typowebherosection"
+                    >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Faucibus in libero risus semper habitant arcu eget.
                   </Typography>
@@ -158,7 +166,9 @@ const InteriorDesign = () => {
                       lineHeight: "24px",
                       color: "rgba(54, 56, 48, 1)",
                        maxWidth:"250px"
-                    }}>
+                    }}
+                    className="Typowebherosection"
+                    >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Faucibus in libero risus semper habitant arcu eget.
                   </Typography>

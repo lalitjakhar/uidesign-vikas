@@ -7,7 +7,7 @@ const EwatchSection = () => {
   return (
     <>
       <div>
-        <Container maxWidth="xl" sx={{ height: "900px", display: "flex" }}>
+        <Container maxWidth="xl" sx={{ height: "900px", display: "flex", marginTop:"50px" }}>
           <Box sx={{ display: "flex", flexDirection: "column", gap: "30px" }}>
             <Box>
               <img
@@ -19,7 +19,8 @@ const EwatchSection = () => {
             </Box>
             <Box>
               <Typography
-                sx={{ fontSize: "64px", fontWeight: "700", lineHeight: "80px" }}
+             
+                sx={{ fontSize: "64px", fontWeight: "700", lineHeight: "80px", fontFamily:"fangsong" }}
               >
                 THE eWatch with the newest microchip technology
               </Typography>
@@ -37,10 +38,10 @@ const EwatchSection = () => {
               </Typography>
             </Box>
             <Box sx={{ display: "flex", gap: "10px" }}>
-              <Button sx={{ background: "rgba(5, 5, 5, 1)", color: "white" }}>
+              <Button sx={{ background: "rgba(5, 5, 5, 1)", color: "white", fontSize:"24px", borderRadius:"16px",paddingInline:"24px" }}>
                 Order now
               </Button>
-              <Button sx={{ border: "1px solid black", color: "black" }}>
+              <Button sx={{ border: "1px solid black", color: "black" ,fontSize:"24px", borderRadius:"16px",paddingInline:"24px"  }}>
                 Explore more
               </Button>
             </Box>

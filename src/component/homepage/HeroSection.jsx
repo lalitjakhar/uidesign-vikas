@@ -10,20 +10,24 @@ const HeroSection = () => {
             sx={{
               display: "flex",
               flexDirection: "column",
-              gap: { xs: "8px", md: "10px" },
+              textAlign:"center",
+              alignItems:"center",
+              gap:"24px",
+              marginBottom:"20px",
+              fontFamily:"serif"
              
-              textAlign: "center",
-              margin: "0 auto", // Center the container
-              padding: { xs: "16px", md: "32px" },
             }}
           >
             <Box>
               <Typography
                 sx={{
+                  width:"600px",
                   fontWeight: "600",
-                  fontSize: { xs: "32px", md: "64px" }, // Responsive font size
-                  lineHeight: { xs: "40px", md: "80px" }, // Responsive line height
+                  fontSize: { xs: "32px", md: "64px" },
+                  lineHeight: { xs: "40px", md: "80px" }, 
+                  color:"rgba(37, 37, 37, 1)"
                 }}
+              className="Typowebherosection"
               >
                 Discover the beauty around the world
               </Typography>
@@ -35,7 +39,9 @@ const HeroSection = () => {
                   color: "rgba(37, 37, 37, 0.55)",
                   fontSize: { xs: "16px", md: "26px" },
                   lineHeight: { xs: "24px", md: "35px" },
+                  width:"620px",
                 }}
+                className="Typowebherosection"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Faucibus in libero risus semper habitant arcu eget. Et integer
@@ -45,8 +51,20 @@ const HeroSection = () => {
             <Box>
               <Button
                 variant="contained"
+                className="Typowebherosection"
                 sx={{
-                  background: "#252525",
+                  background: "rgba(37, 37, 37, 1)",
+                  paddingRight:" 20px",
+                  paddingLeft:"20px",
+                  borderRadius:"16px",
+                  paddingTop:"15px",
+                  paddingBottom:"15px",
+                  fontSize:"18px",
+                  fontWeight:"400px",
+                  lineHeight:"18px",
+                  color:"rgba(255, 255, 255, 1)",
+                  
+                  
                 }}
               >
                 Explore

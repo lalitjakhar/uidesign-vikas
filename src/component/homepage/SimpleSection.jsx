@@ -12,6 +12,7 @@ const SimpleSection = () => {
                   lineHeight: "88px",
                   fontWeight: "800",
                 }}
+                className="Typowebherosection"
               >
                 Just that simple
               </Typography>
@@ -19,9 +20,12 @@ const SimpleSection = () => {
 
             <Box
               sx={{
+                width:"526px",
                 display: "flex",
                 flexDirection: "column",
                 maxWidth: "600px",
+                gap:"16px",
+               
               }}
             >
               <Box>
@@ -32,13 +36,27 @@ const SimpleSection = () => {
                     fontWeight: "400",
                     color:"rgba(37, 37, 37, 0.55)"
                   }}
+                  className="Typowebherosection"
                 >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Faucibus in libero risus semper habitant arcu eget.
                 </Typography>
               </Box>
               <Box>
-                <Button variant="contained" sx={{ background: " #252525" }}>
+                <Button variant="contained"  sx={{
+                  background: "rgba(37, 37, 37, 1)",
+                  paddingRight:" 20px",
+                  paddingLeft:"20px",
+                  borderRadius:"16px",
+                  paddingTop:"15px",
+                  paddingBottom:"15px",
+                  fontSize:"18px",
+                  fontWeight:"400px",
+                  lineHeight:"18px",
+                  color:"rgba(255, 255, 255, 1)",
+                  
+                  
+                }}>
                   Get Started
                 </Button>
               </Box>

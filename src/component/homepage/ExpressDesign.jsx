@@ -14,6 +14,7 @@ const ExpressDesign = () => {
               left: "64",
               top: "64",
             }}
+            className="Typowebherosection"
           >
             Design is the way how you express the feelings
           </Typography>
@@ -40,6 +41,7 @@ const ExpressDesign = () => {
                 lineHeight: "32px",
                 color: "rgba(37, 37, 37, 0.8)",
               }}
+              className="Typowebherosection"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </Typography>
@@ -69,6 +71,7 @@ const ExpressDesign = () => {
                 lineHeight: "32px",
                 color: "rgba(37, 37, 37, 0.8)",
               }}
+              className="Typowebherosection"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </Typography>
@@ -98,6 +101,7 @@ const ExpressDesign = () => {
                 lineHeight: "32px",
                 color: "rgba(37, 37, 37, 0.8)",
               }}
+              className="Typowebherosection"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </Typography>
@@ -127,6 +131,7 @@ const ExpressDesign = () => {
                 lineHeight: "32px",
                 color: "rgba(37, 37, 37, 0.8)",
               }}
+              className="Typowebherosection"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </Typography>

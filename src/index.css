@@ -13,62 +13,64 @@ body {
   .beautyworldcontainer {
     flex-direction: column;
     gap: 50px;
-    
   }
-  .SimpleSectioncontent{
+  .SimpleSectioncontent {
     flex-direction: column;
     align-items: center;
     margin-bottom: 110px;
   }
-  .ExplorationSectioncontent{
+  .ExplorationSectioncontent {
     flex-direction: column;
     align-items: center;
-   
   }
-  .PracticeSeaction{
+  .PracticeSeaction {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .ExpressDesigncontent{
+  .ExpressDesigncontent {
     display: flex;
-   flex-direction: column;
-   align-items: center;
-
+    flex-direction: column;
+    align-items: center;
   }
-  .Expressway{
+  .Expressway {
     display: flex;
     justify-content: center;
     font-size: 30px;
   }
-  .PracticSection1{
+  .PracticSection1 {
     display: flex;
     justify-content: center;
   }
-  .Nextlevelcontent{
+  .Nextlevelcontent {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
- 
 }
 
-     
-
-.SimpleSectioncontent{
-    display: flex;
-    height: 200px;
-    gap: 70px;
+.SimpleSectioncontent {
+  display: flex;
+  height: 200px;
+  gap: 120px;
+  align-items: start;
 }
-.ExplorationSectioncontent{
-    display: flex;
-    margin-top: 70px;
-    width: 100%;
-    gap: 40px;
-    margin-left: 0;
-    padding-left: 0;
-};
+.ExplorationSectioncontent {
+  display: flex;
+  margin-top: 70px;
+  width: 100%;
+  gap: 40px;
+  margin-left: 0;
+  padding-left: 0;
+}
 
-
-
-
+.Typowebherosection {
+  font-family: "Nunito Sans", sans-serif !important;
+  
+  font-style: normal;
+}
+.typoinspiredesign{
+  font-family: "Poppins", sans-serif !important;
+  
+  font-style: normal;
+}
