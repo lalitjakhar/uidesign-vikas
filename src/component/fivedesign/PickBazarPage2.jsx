@@ -15,8 +15,8 @@ const PickBazarPage2 = () => {
               style={{ width: "100%" }}
             />
           </Box>
-          <Box sx={{ position: "relative", height: "150px" }}>
-            <Box sx={{ position: "absolute", top: "-150px", left: "100px" }}>
+          <Box sx={{ position: "relative", height: "150px",}}>
+            <Box sx={{ position: "absolute", top: "-150px", left: "100px", width:"266px", height:"266px", border:"3px solid rgb(247 81 89)", borderRadius:"50%", display:"flex",justifyContent:"center",alignItems:"center", bgcolor:"rgb(242 242 242)" }}>
               <Stack>
                 <Avatar
                   alt="Remy Sharp"
@@ -24,12 +24,13 @@ const PickBazarPage2 = () => {
                   sx={{
                     width: 256,
                     height: 256,
-                    border: "1px solid red",
                   }}
                 />
               </Stack>
             </Box>
+            <Box sx={{width:"16px", height:"16px", bgcolor:"red", borderRadius:"50px",position:"absolute", bottom:"244px", left:"330px"}}></Box>
           </Box>
+
           <Container maxWidth="lg">
             <Box>
               <Typography
